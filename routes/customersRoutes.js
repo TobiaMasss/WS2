@@ -40,7 +40,6 @@ router.get('/', (req, res) => {
       return;
     }
 
-    // Restituisci i risultati come risposta
     res.status(200).json(results);
   });
 });
